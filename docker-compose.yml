@@ -1,0 +1,11 @@
+version: '3'
+services:
+  react:
+    image: josearangos/frontend-docker-codebreaker
+    ports:
+      - "3000:3000"
+
+  node:
+    image: josearangos/backend-docker-codebreaker
+    ports:
+      - "5000:5000"
